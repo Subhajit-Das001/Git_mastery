@@ -38,4 +38,6 @@ Switched to branch 'main'
  # git branch branch-name -- it creates a branch with name of branch
  # git checkout branch-name -- switches to branch-name branch from existing branch
  # git checkout -b branch-name -- it creates new branch and immediately switch to that new branch named branch-name
- 
+ #git  push --set-upstream origin branch-name   -- establish the local branch to the remote branch
+#git push -u origin branch-name -- alternative way to do the same like the previous operation
+#git pull -- this cmd fetch the data from local repo and merges to remote repo
