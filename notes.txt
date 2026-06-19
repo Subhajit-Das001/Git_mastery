@@ -1,0 +1,43 @@
+# git init -- initializing the git adding a .git file in the local repo
+#git status -- gives overview of the current conditions like if files are added or files which are untracked
+# git add file.html -- added the file.html to include  in what will be committed
+#git add . -- add all existing files
+#git commit -m 'msg' -- commit all added files with message of msg
+#git log -- shows all the history of git commits
+
+
+#git checkout 'that specific id' --   
+
+ You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 53a7c01 i commited the readme.md file
+
+
+#git checkout main --  Previous HEAD position was 53a7c01 i commited the readme.md file
+Switched to branch 'main'
+
+#git branch -M main --  name the default branch as main
+#git remote add origin https://github.com/Subhajit-Das001/Git_mastery.git 
+ --- it connects the local repo with the remote repo ie github repo
+ #git push -u origin main -- it pushes all the commited files into the remote repo that is on github
+
+
+ # git branch branch-name -- it creates a branch with name of branch
+ # git checkout branch-name -- switches to branch-name branch from existing branch
+ # git checkout -b branch-name -- it creates new branch and immediately switch to that new branch named branch-name
+ #git  push --set-upstream origin branch-name   -- establish the local branch to the remote branch
+#git push -u origin branch-name -- alternative way to do the same like the previous operation
+#git pull -- this cmd fetch the data from local repo and merges to remote repo
